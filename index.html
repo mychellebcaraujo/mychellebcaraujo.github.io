@@ -3,72 +3,66 @@
   <head>
     <meta charset="UTF-8">
     <title>Meu Portfólio</title>
-    <style>
-      /* Estilos CSS para o portfólio */
-      /* ... */
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-      <!-- Cabeçalho do portfólio -->
-      <h1>Meu Portfólio</h1>
-      <!-- Menu de navegação -->
-      <nav>
-        <ul>
-          <li><a href="#sobre-mim">Sobre Mim</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
+    <header class="header">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a href="#" class="logo">Meu Portfólio</a>
+            <button class="navbar-toggler">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+          <div class="navbar-menu">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="#sobre-mim" class="nav-link">Formada em Engenharia de Alimentos na Universidade Federal de Goiás e certificada pela Microsoft como Analista de Dados (DA-100/PL-300) e em Excel (MOS Excel), com cursos de PowerBI, SQL, Banco de dados, Tableau, Data Analysis e Python. Atua como coordenadora na comunidade Mulheres em Dados na frente de PowerBI. Atualmente trabalha como Analista de Dados no Next</a></li>
+              <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+              <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
+      <div class="hero">
+        <div class="container">
+          <h1 class="hero-title">Olá, eu sou <span class="highlight">Seu Nome</span></h1>
+          <p class="hero-description">Desenvolvedor Web</p>
+        </div>
+      </div>
     </header>
     
-    <main>
-      <section id="sobre-mim">
-        <!-- Seção "Sobre Mim" -->
-        <h2>Sobre Mim</h2>
-        <p>Formada em Engenharia de Alimentos na Universidade Federal de Goiás e certificada pela Microsoft como Analista de Dados (DA-100/PL-300) e em Excel (MOS Excel), com cursos de PowerBI, SQL, Banco de dados, Tableau, Data Analysis e Python. Atua como coordenadora na comunidade Mulheres em Dados na frente de PowerBI. Atualmente trabalha como Analista de Dados no Next.</p>
+    <main class="main">
+      <section id="sobre-mim" class="section">
+        <div class="container">
+          <h2 class="section-title">Sobre Mim</h2>
+          <div class="row">
+            <div class="col-6">
+              <img src="https://via.placeholder.com/500x500" alt="Foto de perfil" class="profile-image">
+            </div>
+            <div class="col-6">
+              <p class="section-description">Olá! Meu nome é Seu Nome e eu sou um desenvolvedor web apaixonado por criar soluções digitais que facilitem a vida das pessoas. Sou formado em Ciência da Computação e tenho mais de 5 anos de experiência na área de desenvolvimento web. Atualmente, estou trabalhando como freelancer e estou sempre em busca de novos desafios.</p>
+            </div>
+          </div>
+        </div>
       </section>
       
-      <section id="projetos">
-        <!-- Seção "Projetos" -->
-        <h2>Projetos</h2>
-        <ul>
-          <li>
-            <h3>Projeto 1</h3>
-            <p>Descrição do projeto 1.</p>
-            <a href="#">Ver projeto</a>
-          </li>
-          <li>
-            <h3>Projeto 2</h3>
-            <p>Descrição do projeto 2.</p>
-            <a href="#">Ver projeto</a>
-          </li>
-          <li>
-            <h3>Projeto 3</h3>
-            <p>Descrição do projeto 3.</p>
-            <a href="#">Ver projeto</a>
-          </li>
-        </ul>
-      </section>
-      
-      <section id="contato">
-        <!-- Seção "Contato" -->
-        <h2>Contato</h2>
-        <form>
-          <label for="nome">Nome:</label>
-          <input type="text" id="nome" name="nome"><br>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email"><br>
-          <label for="mensagem">Mensagem:</label>
-          <textarea id="mensagem" name="mensagem"></textarea><br>
-          <input type="submit" value="Enviar">
-        </form>
-      </section>
-    </main>
-    
-    <footer>
-      <!-- Rodapé do portfólio -->
-      <p>Feito por mim &copy; 2023</p>
-    </footer>
-  </body>
-</html>
+      <section id="projetos" class="section">
+        <div class="container">
+          <h2 class="section-title">Projetos</h2>
+          <div class="row">
+            <div class="col-4">
+              <div class="project">
+                <img src="https://via.placeholder.com/500x500" alt="Projeto 1" class="project-image">
+                <h3 class="project-title">Projeto 1</h3>
+                <p class="project-description">Descrição do projeto 1.</p>
+                <a href="#" class="project-link">Ver projeto</a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="project">
+                <img src="https://via.placeholder.com/500x500" alt="Projeto 2" class="project-image">
+                <h3 class="project-title">Projeto 2</h3>
+                <p class="project-description">Descrição do

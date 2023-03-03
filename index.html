@@ -1,55 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Bem vindo</title>
-
-         <!--Google Fonts-->
-        <link 
-            href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" 
-            rel="stylesheet">
-
-        <!--Font Awesome-->
-        <link 
-            rel="stylesheet" 
-            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" 
-            crossorigin="anonymous">
-
-        <!--Meu estilo-->
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
-        <main class="container">
-            <article>
-                <section class="foto-social">
-                    <div class="foto">
-                        <img src="../img/mychelle.jpg" alt="Minha foto" title="colocar meu nome">
-                    </div>
-                    <ul class="social">
-                        <li>  
-                            <a href="https://www.linkedin.com/in/mychellebcaraujo/" target="_blank">
-                                <span class="fab fa-linkedin-in"></span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="https://youtube.com/playlist?list=PLlZD0H2fvLSOIWYJZCkXOU1kDfMXlNVtk" target="_blank">
-                                    <span class="fab fa-youtube"></span>
-                            </a>
-                        </li>
-
-                    </ul>
-                </section>
-                <section class="texto">
-                    <h1>Quem sou eu ?</h1>
-                    <p>
-                        Formada em Engenharia de Alimentos na Universidade Federal de Goiás e certificada pela Microsoft como Analista de Dados (DA-100/PL-300) e em Excel (MOS Excel), com cursos de PowerBI, SQL, Banco de dados, Tableau, Data Analysis e Python. Atua como coordenadora na comunidade Mulheres em Dados na frente de PowerBI. Atualmente trabalha como Analista de Dados no Next
-                    </p>
-                </section>
-            </article>
-        </main>
-    </body>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Meu Portfólio</title>
+    <style>
+      /* Estilos CSS para o portfólio */
+      /* ... */
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- Cabeçalho do portfólio -->
+      <h1>Meu Portfólio</h1>
+      <!-- Menu de navegação -->
+      <nav>
+        <ul>
+          <li><a href="#sobre-mim">Sobre Mim</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="sobre-mim">
+        <!-- Seção "Sobre Mim" -->
+        <h2>Sobre Mim</h2>
+        <p>Formada em Engenharia de Alimentos na Universidade Federal de Goiás e certificada pela Microsoft como Analista de Dados (DA-100/PL-300) e em Excel (MOS Excel), com cursos de PowerBI, SQL, Banco de dados, Tableau, Data Analysis e Python. Atua como coordenadora na comunidade Mulheres em Dados na frente de PowerBI. Atualmente trabalha como Analista de Dados no Next.</p>
+      </section>
+      
+      <section id="projetos">
+        <!-- Seção "Projetos" -->
+        <h2>Projetos</h2>
+        <ul>
+          <li>
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto 1.</p>
+            <a href="#">Ver projeto</a>
+          </li>
+          <li>
+            <h3>Projeto 2</h3>
+            <p>Descrição do projeto 2.</p>
+            <a href="#">Ver projeto</a>
+          </li>
+          <li>
+            <h3>Projeto 3</h3>
+            <p>Descrição do projeto 3.</p>
+            <a href="#">Ver projeto</a>
+          </li>
+        </ul>
+      </section>
+      
+      <section id="contato">
+        <!-- Seção "Contato" -->
+        <h2>Contato</h2>
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome"><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem"></textarea><br>
+          <input type="submit" value="Enviar">
+        </form>
+      </section>
+    </main>
+    
+    <footer>
+      <!-- Rodapé do portfólio -->
+      <p>Feito por mim &copy; 2023</p>
+    </footer>
+  </body>
 </html>

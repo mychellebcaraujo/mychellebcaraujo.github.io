@@ -116,49 +116,6 @@ Você pode personalizar os botões do menu superior editando as tags button dent
         }
     </style>
 </head>
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Dashboard com Zoom e Botão de Voltar</title>
-    <style>
-        #dashboard-container {
-            width: 1200px;
-            height: 800px;
-            position: relative;
-            margin: 0 auto;
-            overflow: hidden;
-        }
-        #dashboard-iframe {
-            width: 1200px;
-            height: 800px;
-            position: absolute;
-            top: 0;
-            left: 0;
-            transition: transform 0.5s ease-in-out;
-        }
-        .zoomed {
-            transform: scale(2);
-            z-index: 999;
-        }
-        #back-button {
-            position: fixed;
-            bottom: 10px;
-            left: 10px;
-            padding: 10px 20px;
-            background-color: #0078D4;
-            color: white;
-            border-radius: 5px;
-            font-size: 18px;
-            cursor: pointer;
-            opacity: 0;
-            transition: opacity 0.5s ease-in-out;
-        }
-        .show-button {
-            opacity: 1;
-        }
-    </style>
-</head>
 <body>
     <div id="dashboard-container">
         <iframe id="dashboard-iframe" src="https://app.powerbi.com/view?r=eyJrIjoiYzliNDRmN2MtMzBlNC00MWIxLTkzZjMtYWZhM2E5ZTUwMmFiIiwidCI6ImQ4ZTFmNTgzLTViMTYtNDM1MC1iMjIwLTQ3ZTk2ZWQwMjQ0ZiJ9&pageName=ReportSection07a0ae575dd8b032cb08"></iframe>

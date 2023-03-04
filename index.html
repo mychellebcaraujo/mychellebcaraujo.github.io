@@ -92,8 +92,35 @@ Você pode personalizar os botões do menu superior editando as tags button dent
     <footer>
       <p>© 2023 Meu Portfólio. Todos os direitos reservados.</p>
     </footer>
-  </body>
+  <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard com Zoom Aumentado</title>
+    <style>
+        #dashboard-container {
+            width: 1200px;
+            height: 800px;
+            position: relative;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        #dashboard-iframe {
+            width: 2400px;
+            height: 1600px;
+            position: absolute;
+            top: -400px;
+            left: -600px;
+            transform: scale(2);
+            transform-origin: 0 0;
+        }
+    </style>
+</head>
 <body>
-    <iframe width="100%" height="500px" src="https://app.powerbi.com/view?r=eyJrIjoiYzliNDRmN2MtMzBlNC00MWIxLTkzZjMtYWZhM2E5ZTUwMmFiIiwidCI6ImQ4ZTFmNTgzLTViMTYtNDM1MC1iMjIwLTQ3ZTk2ZWQwMjQ0ZiJ9&pageName=ReportSection07a0ae575dd8b032cb08"></iframe>
+    <div id="dashboard-container">
+        <iframe id="dashboard-iframe" src="https://app.powerbi.com/view?r=[ID do relatório]&amp;embedded=true"></iframe>
+    </div>
 </body>
+</html>
+
 </html>

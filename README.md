@@ -13,7 +13,7 @@ Analista de Dados no Grupo Boticário certificada pela Microsoft, atualmente Lí
 ### Skills
 
 <p align="left">
-<a href="https://www.app.powerbi.com/" target="_blank" rel="noreferrer"><img src="https://logos-marques.com/wp-content/uploads/2022/08/Microsoft-Power-BI-Logo-500x281.png" width="36" height="45" alt="Power BI" /></a>
+<a href="https://www.app.powerbi.com/" target="_blank" rel="noreferrer"><img src="https://logos-marques.com/wp-content/uploads/2022/08/Microsoft-Power-BI-Logo-500x281.png" width="45" height="36" alt="Power BI" /></a>
 <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
 <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a>
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
